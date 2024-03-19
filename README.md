@@ -8,8 +8,9 @@
 4. Run `hasura metadata apply` command
 5. Run `hasura migrate apply` command
 <!-- 6. Run `hasura seed apply` command //NOT NEEDED -->
-6. Run `hasura console` command
-7. Add database connection to hasura using hasura UI (Use PG_DATABASE_URL from .env in hasura and add db name as st-dart-db)
+6. Add value for admin_secret in config.yaml file
+7. Run `hasura console` command
+8. Add database connection to hasura using hasura UI (Use PG_DATABASE_URL from .env in hasura and add db name as st-dart-db)
 
 
 **Steps to this maintain code:**
